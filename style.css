@@ -19,6 +19,7 @@ header{
 .main-info{
     display: flex;
     margin: 100px 0;
+    justify-content: space-evenly;
 }
 
 .personal-photo img{
@@ -28,4 +29,17 @@ header{
 .about-person{
     display: flex;
     flex-direction: column;
+    width: 400px;
+}
+
+/* HOBBY-SECTION*/
+
+.list-hobbies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.hobbies{
+    width: 45%;
 }
