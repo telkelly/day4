@@ -1,0 +1,31 @@
+header{
+    width: 100%;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-info{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    padding-right: 25px;
+}
+
+/* BODY */
+
+.main-info{
+    display: flex;
+    margin: 100px 0;
+}
+
+.personal-photo img{
+    height: 500px;
+}
+
+.about-person{
+    display: flex;
+    flex-direction: column;
+}
